@@ -1,0 +1,669 @@
+* {
+    padding: 0;
+    margin: 0;
+     -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    }
+
+body{
+    background: #FEFEFE;
+}
+
+.menu_bar{
+display: none;
+}
+header{
+    width: 100%;
+    }
+header nav{
+    background: #996633;
+    z-index: 1000;
+    max-width: 1100px;
+    width: 100%;
+    margin: 10px auto;
+  
+
+}
+header nav ul{
+list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+header nav  ul li:hover{
+    background:#999999;
+}
+header nav li a {
+color:antiquewhite;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px 30px;
+}
+header nav ul li a span{
+    margin-right: 10px;
+}
+header nav ul li:hover .children{
+    display: block;
+}
+header nav ul li .children{
+display: none;
+    background: #011826;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+header nav ul li .children li{
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li .children li a{
+    display: block;
+}
+header nav ul li .children li a span{
+    float: right;
+    position: relative;
+    top:3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+header nav  ul li .caret{
+position: relative;
+    top:3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        padding-top:80px;
+        
+    }
+    .menu_bar{
+        display: block;
+        width: 100%;
+        position: fixed;
+        top:0;
+        background: #E6344A;
+     }
+    .menu_bar .bt-menu{
+        display: block;
+        padding: 20px;
+        color: #fff;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+     }
+    .menu_bar span{
+        float:right;
+        font-size: 40px;
+    }
+    header nav{
+        width: 80%;
+        height:  calc(100%-80px);
+        position: fixed;
+        right: 100%;
+        margin: 0;
+        overflow: scroll;
+     }
+    header nav ul li{
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    }
+    header nav ul li a{
+        display: block;
+    }
+    header nav ul li .children{
+    width: 100%;
+   position: relative;
+    
+    }
+    header nav  ul li:hover .children{
+      display: none;
+    }
+    header nav ul li .children li a{
+        margin-left: 20px;
+    }
+    header nav ul li .caret{
+        float: right;
+    }
+    
+    
+    main .sildes .slidesjs-pagination .slidesjs-pagination li .slidesjs-pagination li a .slidesjs-pagination li a: hover .slidesjs-navigation .slides .active .slides img {
+        overflow: hidden;
+        white-space: nowrap;
+     
+    }
+   
+    
+   
+}
+ /*--slides inicio--*/
+ {
+margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+main{
+width: 100%;
+  margin: 0 auto;
+    overflow: hidden;
+   max-width: 1000%;
+}
+
+.slides{
+    width:97%;
+    padding: 20px ;
+    }
+
+.slides img{
+    width: 20%;
+   }
+
+.slidesjs-pagination  {
+    background: black;
+    list-style: none;
+    position: absolute;
+    padding: 10px 20px;
+  }
+
+.slidesjs-pagination li {
+    float: left;
+
+   
+    
+}
+
+.slidesjs-pagination li a {
+    display: inline;
+    padding: 10px 8px;
+    color: white;
+    text-decoration: none;
+  
+}
+.slidesjs-pagination li a: hover {
+   background:grey; 
+  
+}
+
+.slides .active {
+    background: grey;
+
+}
+
+.slidesjs-navigation{
+    background: black;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 10px 8px;
+    float: right;
+}
+.texto {
+    width: 40%;
+margin-top: 100px;
+    font-family: serif;
+    font-size: 18px;
+  
+
+    }
+
+
+
+#foto h2 {
+width: 80%;
+    font-size: 25px;
+
+}
+
+
+
+
+
+/*--redes--*/
+.social-bar{
+    margin-top: -27px;
+    margin-bottom: 20px;
+margin-left: -30px;
+    z-index: 2000;
+    position: absolute;
+    
+}
+.social-bar a{
+    display: inline-block;
+    color: white;
+    background: black;
+    border: 7px;
+    padding: 10px 20px;
+    text-decoration: none;
+   }
+.social-bar a:hover{
+    background:grey;
+    color: #CC0099;
+    transition: background: 1s,color:#CC0099;
+}
+    
+ooter{
+clear: both;
+float: left;
+    max-width: 1300px;
+    z-index: 1000;
+    margin-top: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background:#996633;
+    font-size: 20px;
+}
+
+footer p{
+    text-align: center;
+ 
+    margin-left: -40px;
+
+    font-family: serif;
+}
+
+footer :hover{
+    background-color: #999999;
+width: 100%;
+ 
+
+ 
+}
+    /*--Acerca deinicio--*/
+* {
+margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background:#cccc99;
+    font-family: serif;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+
+    margin:  20px 0;
+    
+}
+header h1{
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.biografia{
+    width: 70%;
+
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+.biografia img {
+width: 100%;
+height: auto;
+}
+.biografia video{
+    width: 100%;
+    height: auto;
+}
+.biografia p{
+    font-family: serif;
+    font-size: 20px;
+}
+aside{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    float: left;
+}
+aside img{
+    width: 85%;
+  
+}
+footer{
+clear: both;
+float: left;
+    max-width: 1300px;
+    z-index: 1000;
+    margin-top: 20px;
+    color: antiquewhite;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background:#996633;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px){
+    .biografia{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .biografia{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
+
+/*--recetas--*/
+* {
+margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #cccc99;
+    font-family: serif;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+
+    margin:  20px 0;
+    
+}
+header h1{
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.receta{
+    width: 70%;
+
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.receta video{
+    width: 100%;
+    height: auto;
+}
+.receta p{
+    font-family: serif;
+    font-size: 20px;
+}
+footer{
+clear: both;
+float: left;
+  max-width: 1300px;
+   z-index: 1000;
+    margin-top: 20px;
+    color: antiquewhite;
+  box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: #996633;
+}
+@media screen and (max-width:800px){
+    .receta{
+        width: 100%;
+    }
+  
+}
+@media screen and (max-width:400px){
+    .receta{
+        width: 100%;
+    }
+    
+}
+/*--contacto--*/
+* {
+margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #cccc99;
+    font-family: serif;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin:0px auto;
+    overflow: hidden;
+}
+
+
+ #nombre{
+    background:#FFFFCC;
+}
+#correo{
+    background: #FFFFCC;
+}
+#mensaje{
+    background: #FFFFCC;
+}
+#enviar{
+background:#FFFFCC;
+}
+
+footer{
+clear: both;
+float: left;
+    max-width: 1300px;
+    z-index: 1000;
+    margin-top: 20px;
+    color: antiquewhite;
+    box-sizing: border-box;
+    width:100%;
+    padding: 20px;
+    background:#996633;
+}
+
+@media screen and (max-width:800px){
+    .formulario{
+        width: 100%;
+    }
+   
+@media screen and (max-width:400px){
+    .formulario{
+        width: 100%;
+    }
+}
+    /*--inicio--*/
+* {
+margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #cccc99;
+    font-family: serif;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+
+    margin:20px  0;
+ 
+    
+}
+header h1{
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.slide{
+    width: 100%;
+
+    padding: 60px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+footer{
+clear: both;
+float: left;
+    max-width: 1300px;
+    z-index: 1000;
+    margin-top: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background:#996633;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px){
+    .slide{
+        width: 100%;
+    }
+ 
+@media screen and (max-width:400px){
+    .slide{
+        width: 100%;
+    }
+   
+}
+/*--recetas_dulces--*/
+    * {
+   margin: 0;
+padding: 0;
+       -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #cccc99;
+    font-family: serif;
+}
+.contenedor{
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+
+    margin:  20px 0;
+   
+    
+}
+    .recetario{
+    width: 75%;
+
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+ .recetas_dulces {.
+width: 40%;
+height: auto;
+    border-radius: 50%;
+    }
+    
+     .recetas_img{
+         width: 90%;
+         height: auto;
+    border-radius: 50%;
+     }
+
+   .btn{
+        font-family: serif;
+        font-size: 20px;
+       color:black;
+        background-color:darkgrey ;
+       border-radius: 10%;
+       border: 2px;
+    }
+    #detalles{
+        width: 100%;
+        font-family: serif;
+        font-size: 20px;
+        text-decoration: none;
+        }
+.recetario  h2 {
+    color:black;
+    width: 100%;
+  margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+    #sumario{
+        width: 100%;
+        font-size: 24px;
+      
+ }
+    #sumario a{
+        width: 100%;
+        font-size: 24px;
+    }
+
+footer{
+clear: both;
+float: left;
+    max-width: 1300px;
+    z-index: 1000;
+    margin-top: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background:#996633;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px){
+    .recetario{
+        width: 100%;
+    }
+    }
+    
+ 
+@media screen and (max-width:400px){
+    
+    .recetario{
+        width: 100%;
+    }
+}
+ 
